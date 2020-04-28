@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{720fc387-974d-4a6e-959d-d0570b7b623b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{801131f2-3ee4-4c99-81ab-a8f3f8f40b0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\vtcp.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vtcp_packet.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vtcp_queue.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vtcp_session.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xyudp.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\vtcp.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vtcp_packet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vtcp_queue.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vtcp_session.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xyudp.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
